@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3D Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="scene">
+    <div class="weather-card">
+        <h1>🌤 Weather 3D</h1>
+
+        <input type="text" id="city" placeholder="Enter City Name">
+        <button onclick="getWeather()">Get Weather</button>
+
+        <div class="weather-info" id="result">
+            <p>Temperature: -- °C</p>
+            <p>Humidity: -- %</p>
+            <p>AQI: --</p>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
